@@ -1,0 +1,18 @@
+// Cách babel-plugin-module-resolver hoạt động
+// Bình thường:             import App from './src/App.css'
+// Khi sử dụng thư viện:    import App from '~/App.css'
+
+{
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "alias": {
+            "~": "./src"
+          }
+        }
+      ]
+    ]
+  }
+  
+  
