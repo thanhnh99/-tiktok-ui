@@ -2,8 +2,7 @@
 .menu-item-list {
     width: 220px;
 
-
-    .menu-item{
+    .menu-item {
         margin-left: 0;
     }
 }
@@ -19,11 +18,13 @@
     padding: 11px 16px;
     border-radius: 0;
 
+    &.separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
     &:hover {
         border-radius: 0;
         background-color: rgba(22, 24, 35, 0.03);
     }
-    
 }
 
 //Header
