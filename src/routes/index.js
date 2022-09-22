@@ -1,4 +1,4 @@
-import routeConfig from '~/config/route'
+import config from '~/config'
 
 
 import Home from '~/pages/Home'
@@ -7,10 +7,10 @@ import Upload from '~/pages/Upload'
 
 //public Routes
 export const publicRoutes = [
-    {path: routeConfig.home, component : Home},
-    {path: routeConfig.following, component : Following},
-    {path: routeConfig.profile, component : Following},
-    {path: routeConfig.upload, component : Upload, layout: null},
+    {path: config.routes.home, component : Home},
+    {path: config.routes.following, component : Following},
+    {path: config.routes.profile, component : Following},
+    {path: config.routes.upload, component : Upload, layout: null},
 ]
 
 
